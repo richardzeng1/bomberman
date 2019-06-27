@@ -1,0 +1,19 @@
+{
+  "name": "bomberman",
+  "version": "1.0.0",
+  "description": "2D Classic Bomberman",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node --inspect server/index.js"
+  },
+  "author": "Richard Zeng",
+  "license": "ISC",
+  "devDependencies": {
+    "canvas": "^2.5.0",
+    "express": "^4.17.1",
+    "install": "^0.12.2",
+    "jsdom": "^15.1.1",
+    "socket.io": "^2.2.0"
+  }
+}
